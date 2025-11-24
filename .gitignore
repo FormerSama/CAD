@@ -1,0 +1,55 @@
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environment ---
+venv/
+
+# --- Model checkpoints ---
+*.pth
+*.pt
+*.onnx
+
+# --- Dataset folders ---
+dataset/
+labelme/
+output/
+ocr/
+ocr_tile_img/
+floorplan/
+case1/
+case2/
+rebar_drawing/
+structuralplan/
+
+# --- Converted images / tiles / generated ---
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# 如果你要保留訓練 samples，請把上面這段註解掉
+
+# --- Third-party tools ---
+poppler-windows/
+PPOCRLabel/
+
+# --- Large documents and PDFs ---
+*.pdf
+*.docx
+*.xlsx
+
+# --- GitHub shouldn't track these ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+
+# --- OS files ---
+desktop.ini
